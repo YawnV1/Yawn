@@ -49,7 +49,8 @@ The system does.
 ---
 
 ## High-Level Architecture
-,,,
+
+```text
 CLI
  |
  v
@@ -63,7 +64,7 @@ Runner
  |
  v
 Deltas
-,,,
+```
 ---
 
 ## Concepts (Concrete)
