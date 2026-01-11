@@ -1,0 +1,23 @@
+# Default execution configuration for YAWN
+
+roles:
+  - name: planner
+    enabled: true
+    description: >
+      Responsible for planning the next execution steps
+      based on current state.
+
+  - name: executor
+    enabled: true
+    description: >
+      Performs the main execution logic and produces state deltas.
+
+  - name: reviewer
+    enabled: false
+    description: >
+      Optional validation or review role. Disabled by default.
+
+execution:
+  stop_on_error: true
+  persist_after_each_role: true
+
