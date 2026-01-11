@@ -50,7 +50,6 @@ The system does.
 
 ## High-Level Architecture
 
-```text
 CLI
  |
  v
