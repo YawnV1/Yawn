@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/yawnbanna.png" alt="YAWN banner" width="100%" />
+</p>
+
+
 # YAWN
 
 YAWN is a persistence-first execution framework for long-running,
