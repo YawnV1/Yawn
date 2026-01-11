@@ -1,0 +1,8 @@
+roles:
+  planner:
+    description: Generates next steps based on state
+  executor:
+    description: Applies changes to state
+  reviewer:
+    description: Evaluates outcomes
+
