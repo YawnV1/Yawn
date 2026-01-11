@@ -50,26 +50,21 @@ The system does.
 
 ## High-Level Architecture
 
-┌─────────────┐
-│ CLI │
-└──────┬──────┘
-│
-┌──────▼────────────┐
-│ Continuity Manager │
-└──────┬────────────┘
-│
-┌──────▼────────────┐ ┌──────────────┐
-│ State │◄────►│ Storage │
-└──────┬────────────┘ └──────────────┘
-│
-┌──────▼────────────┐
-│ Runner │
-└──────┬────────────┘
-│
-┌──────▼────────────┐
-│ Deltas │
-└───────────────────┘
- 
+```text
+CLI
+ |
+ v
+Continuity Manager
+ |
+ v
+State  <-->  Storage
+ |
+ v
+Runner
+ |
+ v
+Deltas
+
 ---
 
 ## Concepts (Concrete)
